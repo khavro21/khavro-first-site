@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load static %}
+
+{% block content %}
+
+<div class="card">
+        <div class="card-image">
+          <img src="{% static 'img/lisbon1.png' %}" height="700" width="1200">
+          <span class="card-title">Lisbon</span>
+        </div>
+        <div class="card-content">
+
+          <p>Lisbon is the capital and the largest city of Portugal, with an estimated population of 505,526.</p>
+        <div class="card-action">
+          <a href="#">Click here to leave a comment. </a>
+
+
+        </div>
+        </div>
+</div>
+
+{% endblock content %}

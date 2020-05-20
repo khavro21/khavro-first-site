@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load static %}
+
+{% block content %}
+
+<div class="card">
+        <div class="card-image">
+          <img src="{% static 'img/madeira1.png' %}" height="700" width="1200">
+          <span class="card-title">Madeira</span>
+        </div>
+        <div class="card-content">
+
+          <p>Madeira officially the Autonomous Region of Madeira, is one of the two autonomous regions of Portugal (the other being the Azores).
+              It is an archipelago situated in the north Atlantic Ocean.</p>
+            <div class="card-action">
+          <a href="#">Click here for buy this tour </a>
+</div>
+    </div>
+</div>
+
+{% endblock content %}
